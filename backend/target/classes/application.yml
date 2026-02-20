@@ -1,14 +1,15 @@
 spring:
   datasource:
-    url: jdbc:postgresql://dpg-d6as67vgi27c73d9qvq0-a.oregon-postgres.render.com:5432/bitlab_db?sslmode=require
-    username: bitlab_db_user
-    password: AQu7E9TRGlHun08HxCUFRHCDI7WgSfQv
+    url: jdbc:postgresql://localhost:5432/demo_db
+    username: demo_user
+    password: demo_pass
     driver-class-name: org.postgresql.Driver
 
   jpa:
     hibernate:
       ddl-auto: update
     show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
 
 server:
   port: 8080

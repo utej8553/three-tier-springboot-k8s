@@ -1,7 +1,5 @@
 import { useState } from 'react'
-
-const API_URL = 'http://localhost:8080/api/demo'
-
+const API_URL = 'http://backend:8080/api/demo'
 function App() {
   const [inputValue, setInputValue] = useState('')
   const [items, setItems] = useState([])

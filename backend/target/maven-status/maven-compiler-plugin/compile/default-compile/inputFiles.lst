@@ -1,0 +1,4 @@
+/home/ubuntu/two-tier-springboot-k8s/backend/src/main/java/com/example/demo2/Controller/DemoController.java
+/home/ubuntu/two-tier-springboot-k8s/backend/src/main/java/com/example/demo2/Demo2Application.java
+/home/ubuntu/two-tier-springboot-k8s/backend/src/main/java/com/example/demo2/Entity/DemoEntity.java
+/home/ubuntu/two-tier-springboot-k8s/backend/src/main/java/com/example/demo2/Repository/DemoRepository.java

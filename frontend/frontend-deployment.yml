@@ -16,4 +16,4 @@ spec:
         - name: frontend
           image: utej8553/demo-frontend:latest
           ports:
-            - containerPort: 80
+            - containerPort: 5173
