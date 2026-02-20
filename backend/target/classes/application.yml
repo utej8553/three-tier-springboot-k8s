@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-d6as67vgi27c73d9qvq0-a.oregon-postgres.render.com:5432/bitlab_db?sslmode=require
+    username: bitlab_db_user
+    password: AQu7E9TRGlHun08HxCUFRHCDI7WgSfQv
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8080
